@@ -1,70 +1,33 @@
 ###################
-What is CodeIgniter
+Sistem-Informasi-UMKM-Dan-Bantuan-Sosial-Disperindag-Kabupaten-Ende
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Aplikasi Ini Menupakan Aplikasi Yang dibuat untuk Dinas 
+Perdagangan Dan Perindustrian Kabupaten Ende yang berfungsi 
+untuk mendata data UMKM dan Pengecekan Data Penerimaan Bantuan
 
 *******************
-Release Information
+1 Halaman Login Sistem
 *******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+![screenshot-localhost-2022 03 14-09_09_28](https://user-images.githubusercontent.com/76047090/158092878-b8df0336-05eb-4388-a736-91e5d88d306d.png)
 
 **************************
-Changelog and New Features
+2. Tampilan Dashboard Sistem
 **************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+![screenshot-localhost-2022 03 14-09_10_51](https://user-images.githubusercontent.com/76047090/158093155-b787c456-e0c9-4fca-a353-dad92a8e5822.png)
 
 *******************
-Server Requirements
+3. Tampilan Menu Form Add Data FKM
 *******************
+![screenshot-localhost-2022 03 14-09_11_19](https://user-images.githubusercontent.com/76047090/158093227-3b40371b-0a2f-4ca3-8d9c-c570f14058b4.png)
 
-PHP version 5.6 or newer is recommended.
+*******************
+4.Tampilan Menu Form Pengecekan Data Bantuan
+*******************
+![screenshot-localhost-2022 03 14-09_11_54](https://user-images.githubusercontent.com/76047090/158093289-ade2b1b0-f95e-4a36-ae31-11658357e657.png)
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
 
 ************
-Installation
+By : Yohanes Ardianus Wee
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.

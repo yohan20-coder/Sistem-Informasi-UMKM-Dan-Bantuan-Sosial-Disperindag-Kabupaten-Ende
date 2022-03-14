@@ -1,0 +1,78 @@
+   // public function excel()
+    // {
+    //   //mengambil data dari session di controller auth
+    //   // $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+
+    //   //memanggil model kecamatan
+    //   $data['fkm'] = $this->layanan->tampil();
+      
+    //   require(APPPATH. 'PHPExcel-1.8/Classes/PHPExcel.php');
+    //   require(APPPATH. 'PHPExcel-1.8/Classes/PHPExcel/Writer/Excel2007.php');
+
+    //   $object = new PHPExcel();
+
+    //   $object->getProperties()->setCreator("Laporan Cetak Data FKM");
+    //   $object->getProperties()->setLastModifiedBy("Laporan Cetak Data FKM");
+    //   $object->getProperties()->setTitle("Laporan Cetak Data FKM");
+
+    //   $object->setActiveSheetIndex(0);
+
+    //   $object->getActiveSheet()->setCellValue('A1','NO');
+    //   $object->getActiveSheet()->setCellValue('B1','Nama Kecamatan');
+    //   $object->getActiveSheet()->setCellValue('C1','Kode Kecamatan');
+    //   $object->getActiveSheet()->setCellValue('D1','Nama Kelurahan');
+    //   $object->getActiveSheet()->setCellValue('E1','Kode Kelurahan');
+    //   $object->getActiveSheet()->setCellValue('F1','Nama Sentra');
+    //   $object->getActiveSheet()->setCellValue('G1','Bentuk Sentra');
+    //   $object->getActiveSheet()->setCellValue('H1','Nama Usaha');
+    //   $object->getActiveSheet()->setCellValue('I1','Pemilik Usaha');
+    //   $object->getActiveSheet()->setCellValue('J1','Alamat Usaha');
+    //   $object->getActiveSheet()->setCellValue('K1','No.Hp');
+    //   $object->getActiveSheet()->setCellValue('L1','Nama KLBI');
+    //   $object->getActiveSheet()->setCellValue('N1','Kode KLBI');
+    //   $object->getActiveSheet()->setCellValue('M1','NPWP');
+    //   $object->getActiveSheet()->setCellValue('O1','No.IUT');
+    //   $object->getActiveSheet()->setCellValue('P1','Tahun IUT');
+    //   $object->getActiveSheet()->setCellValue('Q1','No.Amdal');
+    //   $object->getActiveSheet()->setCellValue('R1','Tahun Amdal');
+
+    //   $baris = 2;
+    //   $no = 1;
+
+    //   foreach($data['fkm'] as $mhs) {
+    //     $object->getActiveSheet()->setCellValue('A'.$baris, $no++);
+    //     $object->getActiveSheet()->setCellValue('B'.$baris, $mhs->nm_kec);
+    //     $object->getActiveSheet()->setCellValue('C'.$baris, $mhs->kd_kec);
+    //     $object->getActiveSheet()->setCellValue('D'.$baris, $mhs->nm_kel);
+    //     $object->getActiveSheet()->setCellValue('E'.$baris, $mhs->kd_kel);
+    //     $object->getActiveSheet()->setCellValue('F'.$baris, $mhs->nm_sentra);
+    //     $object->getActiveSheet()->setCellValue('G'.$baris, $mhs->bn_sentra);
+    //     $object->getActiveSheet()->setCellValue('H'.$baris, $mhs->nm_usaha);
+    //     $object->getActiveSheet()->setCellValue('I'.$baris, $mhs->pemilik);
+    //     $object->getActiveSheet()->setCellValue('J'.$baris, $mhs->alamat_usaha);
+    //     $object->getActiveSheet()->setCellValue('K'.$baris, $mhs->hp);
+    //     $object->getActiveSheet()->setCellValue('L'.$baris, $mhs->nm_klbi);
+    //     $object->getActiveSheet()->setCellValue('N'.$baris, $mhs->kd_klbi);
+    //     $object->getActiveSheet()->setCellValue('M'.$baris, $mhs->npwp);
+    //     $object->getActiveSheet()->setCellValue('O'.$baris, $mhs->no_iut);
+    //     $object->getActiveSheet()->setCellValue('P'.$baris, $mhs->thn_iut);
+    //     $object->getActiveSheet()->setCellValue('Q'.$baris, $mhs->no_amdal);
+    //     $object->getActiveSheet()->setCellValue('R'.$baris, $mhs->thn_amdal);
+
+    //     $baris++;
+    //   }
+
+    //   $filename ="Laporan_Data_FKM".'.xlsx';
+
+    //   $object->getActiveSheet()->setTitle("Laporan Data FKM");
+
+    //   header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    //   header('Content-Disposition: attachment;filename="'.$filename.'"');
+    //   header('Cache-Control: max-age=0');
+
+    //   $writer=PHPExcel_IOFactory::createwriter($object,'Excel2007');
+    //   $writer->save('php://output');
+
+    //   exit;
+
+    // }

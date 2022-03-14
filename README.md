@@ -1,6 +1,6 @@
 # Sistem-Informasi-UMKM-Dan-Bantuan-Sosial-Disperindag-Kabupaten-Ende
 
-# 1. Dashboard Sistem Informasi UMKM Dan Bantuan Sosial Disperindag Kabupaten Ende
+# 1. Login Sistem Informasi UMKM Dan Bantuan Sosial Disperindag Kabupaten Ende
 ![screenshot-localhost-2022 03 14-09_09_28](https://user-images.githubusercontent.com/76047090/158092878-b8df0336-05eb-4388-a736-91e5d88d306d.png)
 
 # 2. Tampilan Dashboard Sistem
